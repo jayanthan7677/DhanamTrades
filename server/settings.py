@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-gi1$6nn)31l4ey18@x(9(%$^k0c9o5(*^)2%eu_%&ct(utj3#k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'dhanamtrades.onrender.com',
+]
 
 
 # Application definition
