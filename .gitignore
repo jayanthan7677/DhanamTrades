@@ -1,0 +1,32 @@
+# Virtual environment
+/env/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite database
+db.sqlite3
+
+# IDE and editor settings
+.idea/
+.vscode/
+
+# Log files
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage and reports
+htmlcov/
+*.cover
+*.py,cover
+
+# Environment variables
+.env
+
