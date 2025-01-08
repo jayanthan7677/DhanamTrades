@@ -8,8 +8,6 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# SQLite database
-db.sqlite3
 
 # IDE and editor settings
 .idea/
