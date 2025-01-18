@@ -31,7 +31,7 @@ ALLOWED_HOSTS = [
     'dhanamtrades.onrender.com',
     'dhanamrice.com',
 ]
-
+CSRF_TRUSTED_ORIGINS = ["http://localhost:8000", "dhanamtrades.onrender.com"]
 
 # Application definition
 
