@@ -617,7 +617,7 @@
                     }
                     try{
                         
-                        const response=await fetch("http://127.0.0.1:8000/product/ordersuccess/",{
+                        const response=await fetch("https://dhanamrice.com/product/ordersuccess/",{
                             method:"POST",
                             headers: {
                                 'Content-Type': 'application/json',
@@ -628,7 +628,7 @@
                        
                         const datas = await response.json()
                         if(datas.status==200){
-                            window.location.assign(`http://localhost:8000/product/order/${datas.id}`)
+                            window.location.assign(`https://dhanamrice.com/product/order/${datas.id}`)
                         }else{
                             alert(datas.error)
                         }
